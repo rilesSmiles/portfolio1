@@ -1,24 +1,98 @@
+:root{
+    -clr-neon:rgb(166, 144, 100);
+    -clr-bg:rgb(255, 228, 196);
+    -clr-li: rgb(166, 144, 100);
+	-clrdefault: black;}
 
+nav{
+	font-style: normal;
+}
+
+header{background-color:rosybrown;
+margin: 0em;
+font-family:cursive;
+	font-size: 1.5em;
+	font-style:italic;
+	color: rgb(37, 27, 37);}
+
+li{display: inline-flex;
+	position: static;
+	top: 0em;
+	margin-top: 0em;
+	margin-left: 2em;
+	margin-right: 2.5em;
+	margin-bottom: 1em
+}
+
+section {margin-top: 0em;
+	margin-right: 20em;
+	padding-bottom: 10em;
+}
+footer{color: bisque;
+background-color: black;}
+	
 body {
-    background-color: rgb(116, 144, 100);
+    background-color:#8BA47C;
+	color: darkslategray;
+ 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+ 
+.menu {cursor: pointer;
+	color: bisque;
+	margin-top: 0em;
+	text-decoration: none;
+	border: black 2px solid;
+	padding-right: .5em;
+	padding-left:.5em;
+	padding-bottom: 0em;
+	font-size: .9em;
+	text-shadow: 0 0 0.5em bisque, 0 0 1em bisque;
+	border-radius: .1em;
+	background-color: darkolivegreen;	
+	box-shadow: 0 0 1em bisque;
+}
 
+.title {margin-top: 0em;
+float: right;
+background-color:rosybrown;
+color:bisque;
+	fonnt-size: 4em;
+	font-weight: 100;
+	font-size-adjust: auto;
+	padding-left: .5em;
+padding-right: .5em;
+text-shadow: 0 0 2em bisque;
+box-shadow: 0 0 1em black}
+
+
+.intro {float:right;
+	border: rosybrown 20px solid;
+	border-bottom-width: 30px;
+	border-top-width: 15px;
+	border-style: groove;
+	margin-left: 2em;
+	box-shadow: 0 0 2.6em .5em bisque, 0 0 1.5em white;
 }
-header {
-    font-family:cursive
-}
-header {font-size: 1.5em;}
-header {font-style: italic;}
-header { color: rgb(37, 27, 37);}
-  
-header figure {float: right;
-    padding-bottom: 0em; 
-    padding-top: 0em
-}
-nav {float: right;
+.table1 {border: black 2px solid;
+	position:sticky;
+	margin: 4em
 }
 
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: bisque;
+.table {}
+
+aside{float: right;
+border: black 2px solid;
+text-shadow: 0em 0em 1em white;
+background-color: darkolivegreen;
+	color: black;
+padding-right:60em}
+
+.socials{text-decoration: none;
+text-align:left;
+	margin-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 1em;
+color: bisque}
+	
+.space {float:left;
 }
  
